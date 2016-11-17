@@ -6,7 +6,6 @@ module.exports = function(app, firebase) {
             context = {
                 places: snapshot.val()
             };
-            console.log(context.places);
             res.render("places", context);
         });
     });
@@ -19,9 +18,6 @@ module.exports = function(app, firebase) {
         var db = admin.database();
         var ref = db.ref("/places");
         var opts = req.body.opciones;
-        for (var i = 0, len = opts.length; i < len; i++) {
-            console.log(opts[i]);
-        }
 
         ref.push({
             descriptionPlace: req.body.descripcion,
@@ -50,7 +46,6 @@ module.exports = function(app, firebase) {
             context = {
                 reports: snapshot.val()
             };
-            console.log(context.reports);
             res.render("reports", context);
         });
     });
