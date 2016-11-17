@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "raliuninorte",
+  "private_key_id": "17431e36fdf5b615d279b72db7eab1f558841238",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDUNmITNTU0lkun\n6H0c8b6ejFHTBHbMq8AdPqKvRw22nPkS2h+tS6fMA50xMSb0BrfzaeenSHQNhPIc\nrpCNaiOMACMAPj2BF6strpSowjZ/luscPBCxMvZfDP+DbfOBnm/MxGPYO0WNWliZ\nGGKzu0dgIR3iyyfcv3L6692BNIECowR7C9go1XxiGfngwheVe7pt2ukNDoNAsqCh\nX0cEAhTpxyAbQuxdj9pAh25aRg374icPUtQ2CeZ84XVNgr4M8XvToXOVyXStQaUl\nwHHUNCNGEN615JiMEDt/hkU7IGCWuhA/CirXsSrq+rJd356AsSdVpi46+g3/Jguu\nQIA9HVxvAgMBAAECggEATmgBeINSMynMri8R+t2+ximmGccudZSHmMaJqSUhhfUd\neb+psIehaZl0PLaiY8sPsBnTA1Wbu1sBcWN1+SncFGAAjphwdP/fuTMlreyD4kRK\nfdYbfL0NljThOxgmvh9hw1BUa5IKsp1M2tPNtAZf6r6RojfZdJAv1VHMN27Es8oH\nBecSHRQ12j0uVArKbk/hPhnVZD/O74Xdgjq28QZI6PH32KvL/Hv6dDz0aFRe8QCE\n/GrvFpV81LhklZP/kYYp9L3UuKZJXyffZP7sHmmhaLePP5dxH08LZ7L72hoPyGvP\nsjFVSPmbNcRXtR0nUFawhQ8VEEXBSbDbarnmx5kyIQKBgQDxyX+GXLlw85IrZPJL\nLWVa9fv/uD2EAyE5jeeVRS8Uum6yqwT39THBQpUCOtApaq97AYF1VvHwiaB9MkWk\njjf/lwbeF3FqkX07rCxIEmXVYITRQZRlv7wWk/PNWcWftxkSBBIhsTW6W1kojdVA\nXtS73/y9Zw2yo6CNMZRo+2tSSQKBgQDgr9WbcWqGNv5LxlXUjovmf8R8Xw8WNffx\nqHOPB0ZC/U68HIiWwSI/eSSMwcJ8qxW5mQ6h3P6CM5A0v/4jsR2MRqvHxVD6Fiv+\nmZawTvM0LlE0+6H1MgiLRjc7tj2+dTuKBL4lljkV20VKBkn3esvFDYHAK38QZ7MH\nPBpt+gk49wKBgQCc7dM/Od+CWBR+5b383THzn8Q3bTVAAWgHGvs7/vNX2MkQXb+T\n0CjC7pwYHmQM/Zl3lLqZlhzhqfHoUECzVTszQKrMaxrJuDQ4Dr+O56IAo+yQhKf0\ngkVpwg1zMtj5mLVE5C+AfqwIkFGF6MiIRwR8DBzWMZTKZTlHau6QVN6LQQKBgFt5\n+yOQJ2iBV0MOer9RUdAEUMC6CvBmBI5UoMeolIiNjNK1Yz7NXt4suh68fCw5k1y+\n3eA0k0H7MEjpqdRqNbd4xlNNGEzZXgwIB/u8CPRDrzg9ApFLT4M0kSQ0bCrwm87z\nY172LEOjxDABI3gofHG7sAnHK7JIJfFaHQCNfde9AoGAZFbH3QZJh63vRFDUfI+x\n8ndVMqtQks5BTMTVkix56VBjneKg30BUMtTSLET/9TwstANTjcWJh2CSAiQ01j5Z\nPXmYijaUCck/YFpdgBQeLmgdd9KFHqwdWYYqMYC73w/YV6m8J+554L+ltiQgRoXr\nGevapfNWY2ochc16QwWsRSk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-1z5z8@raliuninorte.iam.gserviceaccount.com",
+  "client_id": "100181385560047486054",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-1z5z8%40raliuninorte.iam.gserviceaccount.com"
+}

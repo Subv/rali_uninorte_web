@@ -1,0 +1,67 @@
+<div class="container">
+    <form action="/add_place_handler" method="post">
+        <div class="form-group">
+            <label for="descripcion">Descripcion </label>
+            <input type="text" class="form-control" id="descripcion" name="descripcion" required />
+        </div>
+
+        <div class="form-group">
+            <label for="id_beacon">Id Beacon </label>
+            <input type="text" class="form-control" id="id_beacon" name="id_beacon" required />
+        </div>
+
+        <div class="form-group">
+            <label for="texto">Texto </label>
+            <input type="text" class="form-control" id="texto" name="texto" required />
+        </div>
+
+        <div class="form-group">
+            <label for="pregunta">Pregunta </label>
+            <input type="text" class="form-control" id="pregunta" name="pregunta" required />
+        </div>
+
+        <div class="form-group">
+            <label for="respuesta_ok">Respuesta correcta </label>
+            <input type="text" class="form-control" id="respuesta_ok" name="respuesta_ok" required />
+        </div>
+
+        <div class="form-group">
+            <label for="respuesta_nueva">Opciones de respuesta </label>
+            <input type="text" class="form-control" id="respuesta_nueva" name="respuesta_nueva" required />
+            <button type="button" class="btn btn-default" id="add_option">Añadir opción</button>
+        </div>
+
+        <div class="form-group">
+            <table id="opciones_respuesta" class="table">
+                <tr>
+                    <th>Opción</th>
+                    <th>Borrar</th>
+                </tr>
+            </table>
+        </div>
+
+        <input type="submit" class="btn btn-default" value="Crear" />
+    </form>
+</div>
+<script type="text/javascript">
+    function delOpt(opt) {
+        $("#opciones_respuesta tr").each(function(i, val_) {
+            if (i == 0)
+                return;
+            var val = $(val_);
+            alert(val);
+            alert(val.children().first().children().first().val());
+            if (val.children().first().children().first().val() == opt) {
+                val.remove();
+            }
+        });
+    }
+
+    $(document).ready(function() {
+        $("#add_option").click(function() {
+            var text = $("#respuesta_nueva").val();
+            var data = "<tr><td>" + text + "<input type='hidden' name='opciones[]' value='" + text + "' /></td><td><a href=\"javascript:delOpt('" + text + "');\"><i class=\"fa fa-trash\" aria-hidden=\"true\"></i></a></td></tr>";
+            $("#opciones_respuesta").append(data);
+        });
+    });
+</script>

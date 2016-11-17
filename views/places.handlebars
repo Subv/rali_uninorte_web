@@ -1,0 +1,27 @@
+<div class="container">
+    <a href="/add_place">Agregar lugar</a>
+    <div>
+        <table class="table">
+            <tr>
+                <th>Descripcion</th>
+                <th>Beacon</th>
+                <th>Texto</th>
+                <th>Pregunta</th>
+                <th>Respuesta Correcta</th>
+                <th>Borrar</th>
+            </tr>
+            {{#each places}}
+            <tr>
+                {{#this}}
+                <td>{{descriptionPlace}}</td>
+                <td>{{idBeacon}}</td>
+                <td>{{textPlace}}</td>
+                <td>{{questionPlace}}</td>
+                <td>{{answerCorrect}}</td>
+                {{/this}}
+                <td><a href="delete_place/{{@key}}">Borrar</a></td>
+            </tr>
+            {{/each}}
+        </table>
+    </div>
+</div>
